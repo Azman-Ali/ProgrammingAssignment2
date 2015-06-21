@@ -1,6 +1,14 @@
 ## This files comprises of makeCacheMAtrix and cacheSolve Function
+## Both files follows similar code structure of the code examples from the instruction 
+## Note that this functions assumes that all matrix supplied are invertible 
 
 ## This function create a special matrix object that cache its inverse
+## It basically contains list of function to
+## 1. Set the value of matrix
+## 2. Get the value of matrix
+## 3. set inversed value of matrix
+## 4. Get the inversed value of matrix
+## (The inverse matrix calculation is done using solve() function in R)
 
 makeCacheMatrix <- function(x = matrix()) {
 
